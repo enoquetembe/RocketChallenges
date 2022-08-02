@@ -29,13 +29,12 @@
     margin-inline:auto;
     margin-top: 10px;
     display: flex;
-    gap: 1rem;
-   
   }
 
   .card {
     background: var(--bg-cards);
-    border-radius: 10px;
+    border-radius: 15px;
+    box-shadow: 0 0 2px rgb(14, 13, 13);
   }
 
   .side {
@@ -43,6 +42,7 @@
     flex-direction: column;
     gap: 1rem;
     margin: 10px;
+    flex: 1;
   }
 
   .side .profile {
@@ -57,7 +57,7 @@
   .side .profile img {
     width: 100px;
     height: 100px;
-    border: 4px solid green;
+    border: 2px solid rgb(3, 255, 3);
     border-radius: 50%;
   }
 
@@ -74,6 +74,10 @@
     padding: 50px;
   
   }
+
+  .side .info img{
+    width: 20px;
+  }
   .side .info ul {
     display: flex;
     flex-direction: column;
@@ -86,10 +90,6 @@
     align-items: center;
     gap: .8rem;
     color: var(--text-color);
-  }
-
-  .side .info img {
-    color: red;
   }
 
   .side .tech {
@@ -112,4 +112,123 @@
     text-align: center;
     font-size: .8rem;
     color: #000;
+  }
+
+  .main-content {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin: 10px;
+    flex: 4;
+  }
+
+  .section .cards {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    
+  }
+
+  .section .cards .title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px 10px 20px;
+  }
+  .section .cards .title:hover {
+    box-shadow: 0 0 2px var(--text-color);
+  }
+
+  .section .cards .title a  {
+    color: var(--text-color);
+    opacity: 70%;
+    font-size: .8rem;
+  }
+
+  .section .cards .title a:hover {
+    opacity: 100%;
+
+  }
+
+  .section .projects {
+    display: flex;
+    gap: 1rem;
+  }
+
+  .section .projects .project {
+    max-width: 490px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    font-size: .8rem;
+    padding: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease; 
+  }
+
+  .section .projects .project:hover {
+    box-shadow: 0 0 5px var(--bg-techs);
+  }
+
+
+  .section .projects .project header {
+    display: flex;
+    gap: 1rem;
+  }
+
+  .section .projects .project header img {
+    width: 20px;
+  }
+
+  .section .projects .project .github-stats {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: .7rem;
+  }
+
+  .section .projects .project .github-stats img {
+    width: 15px;
+  }
+
+  .section .projects .project .github-stats  p {
+    display: flex;
+    align-items: center;
+    gap: .4rem;
+  }
+
+  .section .post img {
+    width: 75px;
+    border-radius: 20px;
+  }
+
+  .section .post {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-size: .8rem;
+    cursor: pointer;
+  }
+  .section .post:hover {
+    box-shadow: 0 0 5px var(--bg-techs);
+  }
+  .section .post .post-content {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  section .post .post-content header p {
+    font-size: .7rem;
+    margin-top: 6px;
+  }
+
+  section .post .post-content .content {
+    font-size: .8rem;
+  }
+
+  section .post .post-content .content .tag{
+    font-size: .9rem;
   }
