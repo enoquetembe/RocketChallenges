@@ -30,6 +30,7 @@
     line-height: 1.5; 
     color: var(--text-base);
     background: var(--background);
+    max-width: 1900px;
   }
 
   .container {
@@ -86,6 +87,10 @@
     
   }
 
+  .input-group input {
+    color: var(--text-base);
+  }
+
   .input-group input, .btn {
     width:60%;
     height:40px;
@@ -111,7 +116,7 @@
   }
 
   input#password {
-    background: url(../images/lock.svg) no-repeat left 10px center;
+    background: url(../images/lock.svg) no-repeat left 10px center, url(../images/eye.svg) no-repeat right 10px center;
   }
 
   input#password:focus {
@@ -137,9 +142,10 @@
     display: flex;
     justify-content: center;
   }
-  .checkbox a {
+  .checkbox a, .input-group a {
     text-decoration: none;
     color: var(--primary-color);
+    font-size: 12px;
   }
 
   .btn {
