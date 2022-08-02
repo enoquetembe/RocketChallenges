@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Roboto:wght@400;500&display=swap');
+
+:root {
+    --text-base: #afb6c2;
+    --text-title: #d4ccb6;
+    --background: #191816;
+    --form-background: #24221f;
+    --primary-color: #ffc632;
+  }
+
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  img {
+    max-width: 100%;
+    
+  }
+
+  aside img {
+    height:100vh;
+    width: 100%;
+  }
+
+
+  body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.5; 
+    color: var(--text-base);
+  }
+
+  .container {
+    max-width: 1900px;
+    margin-inline: auto;
+    padding: 0 20px;
+    background: var(--background);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .main-content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .form-login {
+    background: var(--form-background);
+    margin-inline: auto;
+    padding-top: 20px;
+    width:80%;
+    height:400px;
+    margin-top:100px;
+    font-size:14px;
+   
+  }
+
+  .form-login  .header .head {
+    display: flex; 
+    align-items: center;
+    margin-bottom: 5px;
+    justify-content: center;
+    width:60%;
+  }
+
+  .form-login  .header .head h1 {
+    font-size: 18px;
+    margin-left: 10px;
+    color: var(--text-title);
+  }
+
+  .form-login  .header  p {
+    font-size: 10px;
+  }
+
+  .form-login  .header {
+    margin-bottom: 20px;  
+  }
+
+  .form-login  .header, .input-group  {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+
+  .input-group input, .btn {
+    width:60%;
+    height:40px;
+    margin-bottom:20px;
+    padding-left:40px;
+    border: 0.5px solid #fff;
+    color: var(--text-title);
+    border-radius: 5px;
+    font-size: 11px;
+    background: var(--form-background);	
+  }
+
+  .input-group label {
+    width:60%;
+  }
+
+  input#email {
+    background: url(../images/mail.svg) no-repeat left 10px center;  
+  }
+
+  input#email:focus {
+    background: url(../images/mail-focus.svg) no-repeat left 10px center;
+  }
+
+  input#password {
+    background: url(../images/lock.svg) no-repeat left 10px center;
+  }
+
+  input#password:focus {
+    background: url(../images/lock-focus.svg) no-repeat left 10px center;
+  }
+
+  
+  input#remember:checked {
+    background: url(../images/check.svg);
+  }
+
+  .checkbox {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 13px;
+    width: 60%;
+    margin-bottom: 20px;
+    position: relative;
+    left: 105px;
+  }
+
+  .checkbox a {
+    text-decoration: none;
+    color: var(--primary-color);
+  }
+
+  .btn {
+    background: var(--primary-color);
+    color: var(--form-background);
+    border: none;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;  
+  }
+
+
+
+  
