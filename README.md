@@ -18,3 +18,11 @@ Neste Desafio foi proposto criar um formulário de login na versão desktop e mo
 <br>
 <h3> Versão Desktop: </h3>
 <img width="800em"src="https://user-images.githubusercontent.com/98264322/182219397-796a3681-68e1-4eeb-a9ed-728c8c65744a.png">
+
+<br> <br>
+<hr>
+
+## Desafio "Portfolio"
+
+Neste Desafio foi proposto criar um layout de um portfolio pessoal usando **HTML & CSS: ** <br>
+<img width="900em" src="https://user-images.githubusercontent.com/98264322/182400201-f1b200f9-f91e-4a74-bd5f-bc9eb1fec92e.png">
