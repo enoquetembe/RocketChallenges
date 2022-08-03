@@ -24,5 +24,14 @@ Neste Desafio foi proposto criar um formulário de login na versão desktop e mo
 
 ## Desafio "Portfolio"
 
-Neste Desafio foi proposto criar um layout de um portfolio pessoal usando **HTML & CSS: ** <br>
+Neste Desafio foi proposto criar um layout de um portfolio pessoal usando **HTML & CSS:** <br>
 <img width="900em" src="https://user-images.githubusercontent.com/98264322/182400201-f1b200f9-f91e-4a74-bd5f-bc9eb1fec92e.png">
+<br>
+<hr>
+
+## Desafio RocketShoes
+
+Neste desafio foi proposto desenvolver um layout de um mini e-commerce de calçados esportivos:
+
+<img width="900em" src="https://user-images.githubusercontent.com/98264322/182621776-26bfdb3b-f08b-45eb-8061-f9643ada8eaa.PNG">
+
