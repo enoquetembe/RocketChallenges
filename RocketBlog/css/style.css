@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@400;700&display=swap');
+
+:root {
+    --purple-bg: #290742;
+    --dark-bg: #170027;
+    --button-bg: #9e6dc2;
+    --white: #fff;
+    --light-purple: #fbf6ff;
+    --green: #4fff4b;
+  }
+
+  *{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    
+  }
+
+  body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+
+  a {
+    color: var(--white);
+  }
+
+  .green {
+   color: var(--green);
+  }
+
+  .container {
+    max-width:1440px;
+    margin: 0 auto;
+  }
+
+  .header {
+    background-color: var(--purple-bg);
+    padding: 1rem;
+    color: var(--white);
+    border-bottom: 5px solid var(--green);
+  }
+
+  .child-container {
+    max-width: 1200px;
+    margin-inline: auto;
+  }
+
+  .header .child-container .navbar, .nav  {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .header .child-container .navbar .logo {
+    font-size: 2rem;
+  }
+
+  .header .child-container .navbar .nav {
+    gap: 5rem;
+  }
+  
+  header .child-container .navbar .search {
+    display: flex;
+    align-items: center;
+  }
+
+  .header .child-container .navbar .btn {
+    width: 100px;
+    height: 40px;
+    background: var(--button-bg);
+    border: none;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+
+  .header .child-container .navbar input {
+    width: 200px;
+    height: 40px;
+    padding-left: 30px;
+    border: none;
+    background: var(--dark-bg);
+    color: var(--white);
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+  }
+
+  .header .header-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 70px;
+    gap: 1rem;
+    justify-content: center;
+  }
+  
+  .header .header-section .text h1 {
+    color: var(--button-bg);
+    font-size: 2rem;
+    padding-bottom: 30px;
+  }
+
+  .header .header-section .text a {
+    color: var(--button-bg);
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: .8rem;
+    margin-top: 20px;
+  }
+  
+
