@@ -29,9 +29,17 @@ Neste Desafio foi proposto criar um layout de um portfolio pessoal usando **HTML
 <br>
 <hr>
 
-## Desafio RocketShoes
+## Desafio "RocketShoes"
 
 Neste desafio foi proposto desenvolver um layout de um mini e-commerce de calçados esportivos:
 
 <img width="900em" src="https://user-images.githubusercontent.com/98264322/182621776-26bfdb3b-f08b-45eb-8061-f9643ada8eaa.PNG">
 
+<br>
+<hr>
+
+## Desafio "RocketBlog"
+
+Neste desafio foi proposto desenvolver layout para uma homepage para um blog:
+
+<img width="900em" src="https://user-images.githubusercontent.com/98264322/182804704-bb2f3932-c903-4df0-97a9-fe9958315ef7.png">
