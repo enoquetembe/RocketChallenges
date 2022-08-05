@@ -43,3 +43,15 @@ Neste desafio foi proposto desenvolver um layout de um mini e-commerce de calça
 Neste desafio foi proposto desenvolver layout para uma homepage para um blog:
 
 <img width="900em" src="https://user-images.githubusercontent.com/98264322/182804704-bb2f3932-c903-4df0-97a9-fe9958315ef7.png">
+
+<br>
+<hr>
+
+## Desafio "Rocket NFTs"
+
+Neste desafio foi proposto desenvolver uma landig page completa sobre NFT's
+
+<img width="900em" src="https://user-images.githubusercontent.com/98264322/183143849-b6f7d95d-7ff9-4553-9641-1182dbf79fe7.png">
+
+
+
