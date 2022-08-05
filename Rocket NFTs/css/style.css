@@ -95,10 +95,91 @@
  .gallery {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    margin-top: 70px;
-    gap: 3rem;
+    margin-top: 100px;
+    gap: 1rem;
  }
 
  .gallery img {
     width: 100%;
+    border: 1px solid #fff;
  }
+
+ .banner {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding: 0;
+    border-bottom: 1px solid #fff;
+ }
+
+ .banner .numbers {
+    text-align: center;
+    padding-top: 100px;
+ }
+
+ .banner .numbers h2 {
+    font-size: 3rem;
+ }
+
+ .banner .numbers div {
+    margin-bottom: 50px;
+    line-height: 1.3;
+ }
+
+ .banner .numbers p {
+    opacity: 50%;
+ }
+
+ .banner .text {
+    border-left: 1px solid #fff;
+   
+ }
+
+ .banner .text .articles {
+    max-width: 952px;
+    display: flex;
+    gap: 10rem;
+    padding-bottom: 20px;
+    padding-top: 90px;
+    margin-inline: auto;
+ }
+
+ .ranking {
+    margin-top: 90px;
+ }
+
+ .ranking .child-container {
+    max-width: 1265px;
+    margin-inline: auto;
+ }
+
+ .ranking .autronauts {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 15rem;
+    row-gap: 5rem;
+ }
+
+ .ranking .autronauts .nft .title {
+    display: flex;
+    align-items: center;
+    gap: 8rem;
+   margin-bottom: 20px;
+ }
+
+ .ranking .autronauts .author {
+    display: flex;
+    align-items: center;
+    gap: 12.1rem;
+    margin-bottom: 20px;
+}
+
+.ranking .autronauts .author p {
+    opacity: 50%;
+}
+
+ .ranking .autronauts .nft .title h3 {
+    font-size: 2rem;
+    font-weight: 100;
+ }
+
+ 
