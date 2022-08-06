@@ -25,6 +25,10 @@
         color: var(--text-color);
     }
 
+    a {
+        color: var(--text-color);
+    }
+
     .red {
         color: var(--color-logo);
     }
@@ -49,6 +53,18 @@
 
     .parent-container .header .navbar .nav {
        gap: 4rem;
+    }
+
+    .parent-container .header .navbar button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap:1rem;
+        color: var(--black-text);
+        width: 200px;
+        height: 40px;
+        font-weight: bold;
+        font-weight: 1000;
     }
 
     .parent-container .header .navbar .nav li a  {
@@ -80,9 +96,6 @@
    gap: 3rem;
    }
 
-   .intro .discover img {
-   
-   }
 
    .intro .market {
     display: flex;
@@ -92,10 +105,13 @@
     
    }
 
-  /* .intro div {
-    border: 1px solid red;
+   .intro .market .avarts {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        margin-top: 50px;
    }
-   */
+
  .gallery {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -147,8 +163,22 @@
     margin-inline: auto;
  }
 
+ .banner .text a {
+    text-decoration: underline;
+ }
+
+ .banner .text a.article-link {
+    display: block;
+    margin-top: 50px;
+ }
+
  .ranking {
     margin-top: 90px;
+ }
+
+ .ranking  h2 {
+    font-size: 3rem;
+    margin-bottom: 100px;
  }
 
  .ranking .child-container {
@@ -188,6 +218,23 @@
 
  .artists {
     margin-top: 90px;
+ }
+
+ .artists h2 {
+    font-size: 3rem;
+    margin-bottom: 80px;
+ }
+
+ .artists .link  {
+    margin-top: 60px;
+    margin-bottom: 70px;
+ }
+
+.art-link  {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    justify-content: center;
  }
 
  .artists .child-container {
@@ -243,6 +290,10 @@
     justify-content: center;
  }
 
+ .footer .item-1 .arrow  img {
+    width: 50%;
+ }
+
  .footer .item-2 .child-container {
     display: flex;
     justify-content: space-between;
@@ -272,7 +323,7 @@
  }
 
  .footer .item-2 input {
-    width: 250px;
+    width: 230px;
     height: 50px;
     background: var(--color-input);
     border: none;
@@ -280,15 +331,21 @@
  }
 
  .footer .item-2 button {
-    width: 100px;
+    width: 90px;
     height: 50px;
     border: none;
  }
 
- .footer .item-2 .links a {
+ .footer a  {
     color: var(--text-color);
     opacity: 50%;
     line-height: 2;
+    font-size: 1.3rem;
+ }
+
+ .footer .item-2 .links ul .description {
+    font-weight: bold;
+    margin-bottom: 10px;
  }
 
  .footer .item-3 .child-container {
