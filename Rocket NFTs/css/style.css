@@ -25,6 +25,10 @@
         color: var(--text-color);
     }
 
+    .red {
+        color: var(--color-logo);
+    }
+
     .main-container {
         max-width: 1440px;
         margin-inline: auto;
@@ -182,4 +186,123 @@
     font-weight: 100;
  }
 
+ .artists {
+    margin-top: 90px;
+ }
+
+ .artists .child-container {
+    max-width: 1287px;
+    margin-inline: auto;
+    text-align: center;
+ }
+
+ .artists .artist-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5rem;
+ }
+
+ .artists .artist-list .artist {
+    background: var(--card-color);
+    max-width: 350px;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+ }
+
+ .footer {
+    max-width: 100%;
+    background: var(--card-color);
+ }
+
+ .footer .child-container {
+    max-width: 1277px;
+    margin-inline: auto;
+ }
+
+ .footer .item-1 {
+    border-bottom: 1px solid #fff ;
+ }
+
+ .footer .item-1 .child-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 70px;
+    padding-bottom: 70px;
+ }
+
+
+ .footer .item-1 .arrow {
+    background: var(--color-logo);
+    width: 70px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+ }
+
+ .footer .item-2 .child-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+
+ .footer .item-2 .links {
+    display: flex;
+    gap: 15rem;
+    padding: 80px;
+    flex: 2;
+    border-left: 1px solid #fff;
+ }
+
+ .item-2 {
+    border-bottom: 1px solid #fff;
+ }
+
+ .footer .item-2 .news {
+   flex: 1;
+ }
+
+ .footer .item-2 .news h3 {
+    font-size: 1.8rem;
+    font-weight: 100;
+    margin-bottom: 25px;
+ }
+
+ .footer .item-2 input {
+    width: 250px;
+    height: 50px;
+    background: var(--color-input);
+    border: none;
+    padding-left: 30px;
+ }
+
+ .footer .item-2 button {
+    width: 100px;
+    height: 50px;
+    border: none;
+ }
+
+ .footer .item-2 .links a {
+    color: var(--text-color);
+    opacity: 50%;
+    line-height: 2;
+ }
+
+ .footer .item-3 .child-container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 70px;
+    padding-bottom: 70px;
+ }
+
+ .footer .item-3 ul {
+    display: flex;
+    gap: 3rem;
+ }
+
  
+
+
