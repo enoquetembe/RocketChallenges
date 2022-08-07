@@ -193,6 +193,10 @@
     row-gap: 5rem;
  }
 
+ .ranking .autronauts img {
+   max-width: 100%;
+ }
+
  .ranking .autronauts .nft .title {
     display: flex;
     align-items: center;
@@ -359,6 +363,111 @@
     display: flex;
     gap: 3rem;
  }
+
+ .banner .text img {
+   max-width: 100%;
+}
+
+ @media(max-width:920px) {
+
+   .main-container {
+      max-width: 920px;
+   }
+
+   .intro {
+      grid-template-columns: 1fr;
+      justify-content: center;
+      gap: 2rem;
+  }
+   .intro .discover img {
+      display: none;
+   }
+
+   .parent-container .child-container {
+      max-width: 920px;
+      margin-inline: 60px;
+   }
+
+   .banner {
+      max-width: 100%;  
+   }
+
+   .banner .text img {
+      max-width: 100%;
+   }
+   
+   .banner .text .articles {
+      flex-direction: column;
+      gap: 3rem;
+      max-width: 600px;
+      margin-inline: 50px;
+   }
+
+   .ranking .child-container {
+      max-width: 920px;
+      margin-inline: 50px;
+   }
+
+   .ranking .autronauts {
+      gap: 3rem;
+   }
+
+   .artists .child-container {
+      max-width: 920px;
+      margin-inline: 50px;
+   }
+  
+   .artists .artist-list {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 5rem;
+   }
+
+   .footer .child-container {
+      max-width: 920px;
+      margin-inline: 50px;
+   }
+
+   .footer .item-2 .news {
+      padding-left: 30px;
+      padding-right: 30px;
+      flex: 1;
+   }
+
+   .footer .item-2 .links {
+      gap: 1rem;
+      flex-direction: column;
+      flex: 1;
+      
+   }
+
+   .nav {
+      display: none;
+   }
+  
+ }
+
+ @media (max-width: 768px) {
+   .ranking .autronauts {
+      grid-template-columns: 1fr;
+   }
+
+   .artists .artist-list {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 5rem;
+   }
+
+   .footer .item-2 .child-container {
+      flex-direction: column;
+   }
+
+   .footer .item-3 .child-container {
+      flex-direction: column;
+   }
+ }
+
+
 
  
 
