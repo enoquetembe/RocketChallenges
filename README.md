@@ -49,7 +49,7 @@ Neste desafio foi proposto desenvolver layout para uma homepage para um blog:
 
 ## Desafio "Rocket NFTs"
 
-Neste desafio foi proposto desenvolver uma landig page completa sobre NFT's
+Neste desafio foi proposto desenvolver uma landig page completa sobre NFT's:
 
 <img width="900em" src="https://user-images.githubusercontent.com/98264322/183143849-b6f7d95d-7ff9-4553-9641-1182dbf79fe7.png">
 
