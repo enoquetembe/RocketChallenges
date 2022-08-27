@@ -33,7 +33,7 @@
   }
 
   .container {
-    max-width:1440px;
+    max-width:1900px;
     margin: 0 auto;
   }
 
@@ -69,7 +69,7 @@
   }
 
   .header .child-container .navbar .btn {
-    width: 100px;
+    max-width: 100px;
     height: 40px;
     background: var(--button-bg);
     border: none;
@@ -78,7 +78,7 @@
   }
 
   .header .child-container .navbar input {
-    width: 200px;
+    max-width: 200px;
     height: 40px;
     padding-left: 30px;
     border: none;
@@ -126,7 +126,7 @@
   }
 
   .main-content .posts img {
-    width: 100%;
+    max-width: 100%;
   }
 
   .main-content .posts .post hr {
